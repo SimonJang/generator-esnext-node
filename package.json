@@ -1,0 +1,38 @@
+{
+  "name": "generator-esnext-node",
+  "version": "0.0.0",
+  "description": "Yeoman generator to scaffold node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava test.js"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "app"
+  ],
+  "repository": "SimonJang/generator-esnext-node",
+  "author": {
+    "name": "Simon Jang",
+    "email": "simon.jang.contact@gmail.com",
+    "url": "github.com/SimonJang"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^2.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "pify": "^3.0.0",
+    "xo": "^0.20.3",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^1.7.0"
+  },
+  "xo": {
+    "rules": {
+      "ava/no-ignored-test-files": false
+    }
+  }
+}

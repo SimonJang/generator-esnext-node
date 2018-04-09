@@ -1,0 +1,25 @@
+{
+	"name": "<%= moduleName %>",
+	"version": "0.0.0",
+	"description": "<%= description %>",
+	"main": "index.js",
+	"scripts": {
+	  "test": "xo && ava test.js",
+	  "build": "babel index.js -d dist"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"keywords": "<%= keywords %>",
+	"files": [
+	  "index.js"
+	],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+	  "xo": "^0.20.3",
+	  "ava": "^0.25.0",
+	  "babel-cli": "^6.26.0",
+	  "babel-preset-env": "^1.6.1"
+	}
+  }
